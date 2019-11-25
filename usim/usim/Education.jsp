@@ -39,6 +39,7 @@
 			var g_state = document.querySelector('#g_state'); //졸업여부
 			var major = document.querySelector('#major'); //전공
 			var grade = document.querySelector('#grade'); //학점
+			var classes = document.querySelector('#classes'); //이수학점
 			var total_grade = document.querySelector('#total_grade');//전체학점
 			var major_grade = document.querySelector('#major_grade');//전공학점
 			var transfer = document.querySelector('#transfer'); //복수전공, 부전공
@@ -248,7 +249,7 @@
 				</tr>
 				<tr>
 					<td>이수학점</td>
-					<td><input type="text" id="grade" name="grade"></td>
+					<td><input type="text" id="classes" name="classes"></td>
 				</tr>
 				<tr>
 					<td>부전공/ 복수전공 명</td>

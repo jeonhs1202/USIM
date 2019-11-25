@@ -14,7 +14,7 @@
 		confirm.addEventListener('click', function() {
 
 			var name = document.querySelector('#name');
-			var promotion = document.querySelector('#promotion');
+			var position = document.querySelector('#position');
 			var work = document.querySelector('#work');
 			var salary = document.querySelector('#salary');
 			var s_period = document.querySelector("#s_period");
@@ -31,9 +31,9 @@
 				alert('회사명을 입력하세요.');
 				name.focus();
 				// 직위가 입력되지 않았을시
-			} else if (promotion.value == '') {
+			} else if (position.value == '') {
 				alert('직위를 입력하세요.');
-				promotion.focus();
+				position.focus();
 				// 담당업무가 입력되지 않았을시
 			} else if (work.value == '') {
 				alert('담당 업무를 입력하세요.');
@@ -70,7 +70,7 @@
 				</tr>
 				<tr>
 					<td>직위</td>
-					<td><input type="text" id="promotion" name="promotion"></td>
+					<td><input type="text" id="position" name="position"></td>
 				</tr>
 				<tr>
 					<td>담당업무</td>
